@@ -2,86 +2,85 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel</title>
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <title>Travel Around the World</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url("https://wallpaperbat.com/img/2560x1440/7680x4773-travel-the-world-travel-hd.jpg");
+            /* background from free travel wallpaper search */
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+        h2 {
+            margin-top: 40px;
+            font-size: 48px;
+            text-shadow: 2px 2px 8px #000;
+        }
+        .destination {
+            display: inline-block;
+            width: 250px;
+            margin: 15px;
+            background: rgba(0,0,0,0.5);
+            border-radius: 8px;
+            padding: 10px;
+        }
+        .destination img {
+            width: 100%;
+            border-radius: 6px;
+        }
+        a {
+            color: #ffeb3b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
+
 <body>
-    <header>
-        <div class="slogan">
-            <h2>LOREM IPSUM</h2>
-            <h1>Travel</h1>
-            <p>The inspirational adventures around the world</p>
-        </div>
-    </header>
-    <main class="container">
-        <section class="about_us shadow">
-            <h2 class="main-tt">About me</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, </p>
-            <p>
-                <a href="" class="more btn">read more</a>
-            </p>
-            <img src="images/about_me.jpg" alt="" class="shadow">
-            
-        </section>
-        <section class="latest_articles">
-            <h2 class="main-tt">Latest articles</h2>
-            <ul>
-                <li>
-                    <img src="images/latest_articles_01.png" alt="Lorem Ipsum Dolor">
-                    <h3>Lorem Ipsum Dolor</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur pisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation
-                    </p>
-                    <a href="">read more <img src="images/more_arrow.png" alt=""></a>
-                </li>
-                <li>
-                    <img src="images/latest_articles_02.png" alt="Lorem Ipsum Dolor">
-                    <h3>Lorem Ipsum Dolor</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur pisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation
-                    </p>
-                    <a href="">read more <img src="images/more_arrow.png" alt=""></a>
-                </li>
-                <li>
-                    <img src="images/latest_articles_03.png" alt="Lorem Ipsum Dolor">
-                    <h3>Lorem Ipsum Dolor</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur pisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation
-                    </p>
-                    <a href="">read more <img src="images/more_arrow.png" alt=""></a>
-                </li>
-            </ul>
-        </section>
-        <section class="contact">
-            
-            <img src="images/contact.jpg.png" alt="" class="shadow">
-            <form action="#" method="POST">
-                <h2 class="main-tt">Contact</h2>
-                <div class="field">
-                    <label for="username">name</label>
-                    <input type="text" id="username" placeholder="Your name">
-                    <label for="useremail">email</label>
-                    <input type="email" id="useremail" placeholder="Your email">
-                </div>
-                <div class="field">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                </div>
-                <button class="btn">Send Message</button>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <ul class="sns_links">
-            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href=""><i class="fa-brands fa-pinterest-p"></i></a></li>
-        </ul>
-    </footer>
+    <h2>Travel Around the World</h2>
+
+    <div class="destination">
+        <a href="https://en.wikipedia.org/wiki/Paris" target="_blank">
+            <img src="https://cdn.pixabay.com/photo/2015/03/26/10/14/eiffel-tower-690293_1280.jpg" alt="Paris Eiffel Tower">
+            <p>Paris, France</p>
+        </a>
+    </div>
+
+    <div class="destination">
+        <a href="https://en.wikipedia.org/wiki/Tokyo" target="_blank">
+            <img src="https://images.pexels.com/photos/17389974/pexels-photo-17389974/free-photo-of-shibuya-crossing-tokyo.jpeg" alt="Tokyo Shibuya Crossing">
+            <p>Tokyo, Japan</p>
+        </a>
+    </div>
+
+    <div class="destination">
+        <a href="https://en.wikipedia.org/wiki/New_York_City" target="_blank">
+            <img src="https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg" alt="New York Skyline">
+            <p>New York, USA</p>
+        </a>
+    </div>
+
+    <div class="destination">
+        <a href="https://en.wikipedia.org/wiki/Sydney" target="_blank">
+            <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/sydney-opera-house-1835456_1280.jpg" alt="Sydney Opera House">
+            <p>Sydney, Australia</p>
+        </a>
+    </div>
+
+    <div class="destination">
+        <a href="https://en.wikipedia.org/wiki/Rome" target="_blank">
+            <img src="https://cdn.pixabay.com/photo/2014/10/21/15/42/colosseum-498912_1280.jpg" alt="Colosseum Rome">
+            <p>Rome, Italy</p>
+        </a>
+    </div>
+
 </body>
 </html>
+
